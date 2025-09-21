@@ -131,7 +131,7 @@ export default function QuestionnaireForm() {
           <Button 
             size="lg" 
             className="gradient-primary hover-lift animate-pulse-soft text-white font-semibold py-4 px-8 rounded-full text-lg shadow-button"
-            onClick={() => window.open('#', '_blank')}
+            onClick={() => window.open('https://vinnyamz2.github.io/guia.maes.solteiras.renda.extra/', '_blank')}
           >
             <ArrowRight className="w-5 h-5 mr-2" />
             👉 Quero descobrir essa oportunidade agora!
