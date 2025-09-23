@@ -45,6 +45,7 @@ All colors MUST be HSL.
     --gradient-primary: linear-gradient(135deg, hsl(330 70% 65%), hsl(270 50% 75%));
     --gradient-soft: linear-gradient(180deg, hsl(350 100% 99%), hsl(320 50% 96%));
     --gradient-accent: linear-gradient(135deg, hsl(200 70% 80%), hsl(270 50% 85%));
+    --gradient-mother: linear-gradient(135deg, hsl(320 60% 95%), hsl(300 40% 92%));
 
     /* Shadows with soft colors */
     --shadow-soft: 0 4px 20px hsl(330 50% 80% / 0.3);
@@ -148,13 +149,21 @@ All colors MUST be HSL.
     box-shadow: var(--shadow-button);
   }
 
-  .gradient-primary {
-    background: var(--gradient-primary);
-  }
+.gradient-primary {
+  background: var(--gradient-primary);
+}
 
-  .gradient-accent {
-    background: var(--gradient-accent);
-  }
+.gradient-accent {
+  background: var(--gradient-accent);
+}
+
+.gradient-mother {
+  background: var(--gradient-mother);
+}
+
+.bg-primary-soft {
+  background-color: hsl(var(--primary-soft));
+}
 
   .shadow-soft {
     box-shadow: var(--shadow-soft);
