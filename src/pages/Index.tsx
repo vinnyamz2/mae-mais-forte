@@ -27,7 +27,7 @@ const Index = () => {
           </h1>
           
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-6">
-            Responda apenas 5 perguntas rápidas e receba um guia personalizado gratuito com oportunidades reais de renda extra que se encaixam na sua rotina.
+            Responda apenas 5 perguntas rápidas e receba um guia personalizado com oportunidades reais de renda extra que se encaixam na sua rotina.
           </p>
 
           <div className="bg-accent/30 rounded-lg p-4 mb-8 border border-accent/40">
